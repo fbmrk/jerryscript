@@ -3,5 +3,13 @@
         "NRF52_DK": {
             "target.uart_hwfc": 0
         }
-    }
+    },
+
+    "macros": [
+        "JERRY_NDEBUG",
+        "JERRY_CPOINTER_32_BIT=1",
+        "JERRY_SYSTEM_ALLOCATOR=1",
+        "JERRY_ES2015_BUILTIN_TYPEDARRAY=1",
+        "NDEBUG"
+    ]
 }

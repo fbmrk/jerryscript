@@ -69,8 +69,11 @@ if (typeof BUTTON2 !== 'undefined') {
 } else {
         print("no button specified");
 }
-button.fall(function() {
-    print("YOU PUSHED THE BUTTON!");
-});
+
+if (button) {
+    button.fall(function() {
+        print("YOU PUSHED THE BUTTON!");
+    });
+}
 
 print("flash_leds.js has finished executing.");

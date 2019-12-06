@@ -1,6 +1,6 @@
 mbed-os
 mbed-events
-.build
+BUILD
 .mbed
 .temp/
 mbed_settings.py

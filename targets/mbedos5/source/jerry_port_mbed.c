@@ -90,3 +90,9 @@ jerry_port_get_current_time (void)
   last_time = curr_time;
   return result;
 } /* jerry_port_get_current_time */
+
+void
+jerry_port_print_char (char c) /**< the character to print */
+{
+  putchar (c);
+} /* jerry_port_print_char */
